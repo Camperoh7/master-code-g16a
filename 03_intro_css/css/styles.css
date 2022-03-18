@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hubballi&display=swap');
+
+body{
+    background-color: greenyellow;
+}
+header{
+    background-color: indigo;
+}
+.blanco {
+    font-size: 26px;
+    font-family: 'Hubballi', cursive;
+}
+section {
+    background-color: whitesmoke;
+    border: purple 10px dashed;
+    width: 100%;
+}
+div {
+    border: red solid 10px;
+    border-top-color: red;
+    border-right-color: chartreuse;
+    border-bottom-color: yellow;
+    width: 50%;
+    
+}
+
+h1{
+    font-family: 'Hubballi', cursive;
+}
+
+p{
+    font-family: 'Hubballi', cursive;
+}
+
+
+
+
+
+
+
