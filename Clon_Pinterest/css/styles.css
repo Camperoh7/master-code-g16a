@@ -51,7 +51,36 @@
 }
 
 img{
-    width:45px;
     padding:10px;
+    width: 45px;    
+}
+
+body{
+    background-color: #fff;
+    margin:0 38px;
+    padding:0;
+}
+
+.contenedor{
+    margin:15px 15px 15px 15px;
+    width:100%;
+    
+}
+.elemento{
+    background: #fff;
+    box-shadow: 0 1px 2px 0;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width:220px;
+}
+
+.elemento{
+    font-size: 13px;
+    padding:0px;
+}
+.elemento img{
+    width:100%;
+    padding: 0;
 }
 
