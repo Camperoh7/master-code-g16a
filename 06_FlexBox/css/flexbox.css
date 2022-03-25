@@ -1,0 +1,117 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: #e040fb ;
+    display: flex;
+    flex-direction: row;
+    height:10vh;
+    justify-content: space-between;
+    width:100%;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+}
+header nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height:100%;
+}
+header nav a{
+    color:#000000;
+    font-size: 0.5rem;
+}
+header nav a:hover{
+    background-color: #aeea00;
+    border-radius: 20px;
+}
+headre nav a, header nav span{
+    margin-right: 5px;
+}
+aside{
+    background-color: #b39ddb;
+    height: 80vh;
+    width:15%;
+}
+aside nav{
+    display: flex;
+    flex-direction: column;
+}
+aside nav a{
+    border-bottom: 1px #000000 solid;
+    border-radius: 25px;
+    color: #26c6da;
+    font-size: 0.8rem;
+    margin: 8px 0;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+}
+aside nav a:hover{
+    background-color: #ff7043;
+    border-radius: 25px;
+}
+main{
+    background-color: #ede7f6;
+    flex-direction: row;
+    display: flex;
+    height:80vh;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    height:80vh;
+    overflow-y: scroll;
+    width:85%;
+}
+section article{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    height: 250px;
+}
+section article h4{
+    
+}
+footer{
+    align-items: center;
+    background-color: #e040fb ;
+    display: flex;
+    flex-direction: row;
+    height:10vh;
+    justify-content: center;
+    width:100%;
+}
+footer p{
+    margin:0;
+}
+footer a{
+    color: #000000;
+    margin-left: 5px;
+}
+footer a:hover{
+    background-color: #aeea00;
+    border-radius: 25px;
+}
+h1{
+    font-size: 1.5rem;
+    margin:10px 0 5px 5px;
+}
+.logo{
+    height:100%;
+}
+.perfil{
+    border-radius: 50%;
+    height:100%;
+}
+.galeria{
+    height: 200px;
+}
+
