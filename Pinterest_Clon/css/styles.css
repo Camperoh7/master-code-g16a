@@ -88,26 +88,55 @@ header .navbar-pinterest{
     text-align: center;
     width: 40px
 }
-
-img{
-    border-radius: 25%;
-    padding: 0px;
-    width:100%;
-    
+main{
+    height: auto;
+    margin: 10px;
 }
 #content{
-    display: flex;
-    margin: 0;
-    padding: 5px;
-    flex-wrap: wrap;
+    columns: 5 220px;
+    column-gap: 0.5em;
+}
+img{
+    margin-bottom: 0.5rem;
+    max-width: 100%;
+    padding: 10px;
+    width: 45px;
 }
 .card-image{
-    columns: 5 150px;
-    flex: 25%;
-    padding: 5px;
+    background: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    width:236px;
 }
 .card-image img{
-    margin-right: 15px;
-    margin-bottom: 10px;
-    padding: 0 10px;
+    border-radius: 25px;
+    padding: 0;
+    width: 100%;
+}
+@media screen and (max-width:700px){
+    .navbar-pinterest .cajasnav{
+    display: flex;
+    margin:0;
+    padding:auto;
+    text-align: left;
+    width: fit-content;
+    }
+    .navbar-pinterest .cajasnav .hoy a{
+        display: none;
+    }
+    .navbar-pinterest input.nosubmit{
+    display: flex;
+    margin:0;
+    padding: auto;
+    text-align: left;
+    width:200px;
+    }
+    .navbar-pinterest div .material-icons{
+    display: inline;
+    margin: 0;
+    padding: auto;
+    text-align: left;
+    width: 100px;
+    }
 }
