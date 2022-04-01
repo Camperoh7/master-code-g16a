@@ -150,7 +150,7 @@ img{
 }
 .card-image figure:hover > .capa{
     border-radius: 25px;
-    height: 100%;
+    height: 98%;
     margin: 0;
     opacity: 1;
     padding: 0;
@@ -216,6 +216,9 @@ img{
 }
 /*responsive*/
 @media screen and (max-width:700px){
+    header .navbar-pinterest{
+        margin: 2px 5px 2px 25px;
+    }
     .navbar-pinterest .cajasnav{
     display: flex;
     margin:0;
@@ -239,5 +242,8 @@ img{
     padding: auto;
     text-align: left;
     width: 100px;
+    }
+    main{
+        margin: 5px 5px 5px 20px;
     }
 }
